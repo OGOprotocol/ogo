@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+    <div class="button-container">
+        <button class="verify-button" onclick="tweetVerification()">click to verify</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function tweetVerification() {
+            window.location.href = "https://twitter.com/intent/tweet?text=I%20am%20considered%20WL%20on%20%40OGOprotocol%20https%3A%2F%2Fogo.com%2F";
+        }
+    </script>
+</body>
+</html>
